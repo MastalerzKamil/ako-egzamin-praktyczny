@@ -1,5 +1,6 @@
 .686
 .model flat
+public _find_in_last
 .data
 .code
 _find_in_last PROC
