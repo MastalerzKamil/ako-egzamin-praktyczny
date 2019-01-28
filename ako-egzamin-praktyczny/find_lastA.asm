@@ -10,6 +10,8 @@ _find_in_last PROC
 	push esi
 	push edi
 	push ecx
+
+	mov eax, 0
 	mov edi, [ebp+8]	; *last
 	mov bx, [ebp+16]	; znak
 	; szukanie dlugosci lancucha znakow
