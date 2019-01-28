@@ -26,7 +26,7 @@ szukaj_znaku:
 	dec ecx
 	jnz szukaj_znaku
 znaleziono:
-	mov eax, ecx	; indeks znaku w tablicy last
+	mov ax, [edi+4ecx+2]	; indeks znaku ze wzorca z tablicy last
 	pop ecx
 	pop edi
 	pop esi
